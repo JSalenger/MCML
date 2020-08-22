@@ -1,0 +1,14 @@
+name: P2p
+version: @version@
+main: com.jbsalenger.p2p.P2p
+api-version: 1.15
+prefix: p2p
+load: STARTUP
+authors: [Jon_Salenger, ForgingMetal]
+description: Player to picture | Convert player actions to a picture that can be read by a CNN
+website: jbsalenger.com
+commands:
+  p2p:
+    description: Record player actions for the next 30 seconds and translate in to CNN recognizeable image
+    usage: /p2p <player>
+    permission: p2p.p2p
