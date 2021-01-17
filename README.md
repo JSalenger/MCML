@@ -1,5 +1,4 @@
 # MCML 
-This repo is slapped together and rushed but hopefully ( if necessary ) I'll bring improvements. 
 
 ## What does this do? 
 This repo houses both the plugin ( data generator ) and model builder ( jupyter notebook ) that I plan to use to identify and ban hackers playing on public minecraft networks. Anti-Cheats in Minecraft are difficult to develop because the server only has access to the packets sent by the client (versus having the game install an anti-cheat on the local machine, like Valorant or Easy Anti-Cheat). Also, all checks have to the pre-written, so exploiters can easily get around them, but what if Deep Learning could generate a "perfect" anti cheat? Only using the packets sent by the server. Theorhetically it could train on real time data and adapt to new exploits within minutes. 
